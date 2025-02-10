@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - DeepSolutions</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+      <div class="warning">(This Website is used for demo and educational purposes only.)</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="team.html">Team</a></li> 
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services-content">
+            <section class="services-content">
+                <h1>Our Services</h1>
+                <button class="accordion">IT Consulting & Strategy</button>
+        <div class="panel">
+          <p>> Expert guidance to help businesses implement the best technology solutions.
+            <br>> Technology roadmap creation and IT infrastructure planning.</p>
+        </div>
+
+        <button class="accordion">Data Analytics & Business Intelligence</button>
+        <div class="panel">
+          <p>Advanced data processing and visualization solutions for informed decision-making.
+            <br>Tools: Power BI, Tableau, Apache Spark, Hadoop.</p>
+        </div>
+
+        <button class="accordion">UI/UX Design & Prototyping</button>
+        <div class="panel">
+          <p>Designing intuitive and engaging user experiences for web and mobile applications.
+            <br>Wireframing, prototyping, and usability testing.</p>
+        </div>
+        <button class="accordion">Cloud Security & Compliance</button>
+        <div class="panel">
+          <p>Ensuring cloud security with compliance to industry standards (GDPR, HIPAA, ISO 27001).
+            <br>Secure access control, cloud encryption, and threat monitoring.</p>
+        </div>
+        <button class="accordion">IoT(Internet of Things) Solutions</button>
+        <div class="panel">
+          <p>Smart device integration, automation, and real-time monitoring solutions.
+            <br>Edge computing, sensor data analytics, and Industrial IoT (IIoT).</p>
+        </div>
+        <button class="accordion">Blockchain Development</button>
+        <div class="panel">
+          <p>Secure, decentralized applications for finance, supply chain, and healthcare.
+            <br>Smart contracts, NFT platforms, and enterprise blockchain solutions.</p>
+        </div>
+        <button class="accordion">AR & VR Solutions</button>
+        <div class="panel">
+          <p>Immersive technology solutions for gaming, training, and virtual simulations.
+            <br>AR/VR development for real estate, education, and healthcare.</p>
+        </div>
+        <div class="image-holding">
+            <img src="style/images/aunty.jpeg" style="width:600px; height:auto; margin:3px;  padding:15px; border:2px dashed aliceblue;" alt="do you feel like you have seen you somewhere ...">
+        </div>
+        </div>
+            </section>
+        <section class="services-contents">
+            <div class="service-list">
+                <h2>Other Services</h2>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <h2><strong>Custom Software Development</strong></h2>
+                      </div>
+                      <div class="flip-box-back">
+                        <p>Scalable, robust, and tailored applications for <p title="XXXXXXXXXXX">Businesses.</p></p>
+                            <p><strong>Technologies:</strong> Python, Java, .NET, React, Angular.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <h2><strong>Cloud Solutions & DevOps</strong></h2>
+                      </div>
+                      <div class="flip-box-back">
+                        <p>Migration, optimization, and management of cloud-based applications.</p>
+                        <p><strong>Technologies:</strong> AWS, Azure, Google Cloud.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <h2><strong>Cybersecurity & Risk Management</strong></h2>
+                      </div>
+                      <div class="flip-box-back">
+                        <p>Advanced threat protection and data security services.</p>
+                        <p>Implementation of end-to-end encryption and network security measures.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <h2><strong>AI & Machine Learning Integration</strong></h2>
+                      </div>
+                      <div class="flip-box-back">
+                        <p>Intelligent automation and predictive analytics for businesses.</p>
+                        <p><strong>Technologies:</strong> NLP, Deep Learning, AI-powered automation.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <h2><strong>Web & Mobile App Development</strong></h2>
+                      </div>
+                      <div class="flip-box-back">
+                        <p>Interactive web and mobile applications tailored for your business needs.</p>
+                        <p><strong>Technologies:</strong> Android, iOS, Cross-platform solutions.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Deep Solutions. Since 2025</p>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
+</body>
+</html>
